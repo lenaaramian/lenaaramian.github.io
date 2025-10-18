@@ -1,0 +1,176 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    font-size: 18px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2rem;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #3498db;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: #2c3e50;
+    margin: 2rem 0 1rem 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+h3 a:hover {
+    color: #3498db;
+}
+
+/* Publications section */
+.publications h1 {
+    margin-bottom: 2rem;
+}
+
+.paper {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.paper p {
+    margin-bottom: 0.8rem;
+}
+
+.paper p:first-child {
+    font-size: 20px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.paper p:nth-child(2) {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.paper a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    background: #e8f4f8;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.paper a:hover {
+    background: #d1ecf1;
+}
+
+.abstract {
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Content section */
+.content {
+    margin-top: 1rem;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.content a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar a {
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .paper {
+        padding: 1rem;
+    }
+
+    .paper p:first-child {
+        font-size: 1.1rem;
+    }
+}
