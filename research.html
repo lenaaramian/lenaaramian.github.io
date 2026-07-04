@@ -4,92 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research</title>
-    <link rel="stylesheet" href="research_style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Research — Lena Aramian</title>
+    <meta name="description"
+        content="Publications and working papers by Lena Aramian in market microstructure, market design, and systematic internalisers.">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a2a44'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='15' font-weight='700' fill='%23b08d57' text-anchor='middle'%3ELA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/source-sans-pro" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="opinion_and_policy.html">Opinion and Policy</a>
-        <a href="teaching.html">Teaching</a>
-    </div>
-    
-    <div class="container">
-        <div class="publications">
-            <h1>Research</h1>
-            <div class="paper">
-                <p><strong> How does venue design shape retail trading outcomes?</strong></p>
-                <p>(with Carole Comerton-Forde)</p>
-                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6745681">SSRN</a>
-                <p class="abstract"><strong>Abstract:</strong> We examine how retail trading venue design affects execution quality in a fragmented market without a consolidated tape.  We compare a venue where market makers compete on price relative to a single-venue reference price with one where market makers trade at a multi-venue reference price without price improvement.  Price competition yields lower trading costs (3.3 bps vs. 4.8 bps).  Conditioning on identical reference prices, the venue allowing price improvement continues to deliver lower costs.  Execution shortfalls relative to the European Best Bid and Offer, concentrated on the no-improvement venue, total approximately EUR 1.5 million annually for retail investors.</p>
-            </div>
-    
-            <div class="paper">
-                <p><strong> High-frequency traders' single-dealer platforms and market quality</strong></p>
-                <p>(with Lars Norden)</p>
-                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3738608" target="_blank">SSRN</a>
-                <p class="abstract"><strong>Abstract:</strong> High-frequency traders (HFTs) mainly operate on public exchanges. 
-                    Since the European regulatory changes in 2018 (Markets in Financial Instruments Directive II), some HFTs began operating Systematic Internalizers (SIs), i.e., single-dealer platforms where clients trade against the dealer’s inventory. 
-                    Using Swedish equity market data, we show that higher HFT dealer-platform activity reduces displayed exchange liquidity: quoted spreads widen and depth falls. 
-                    Effective spreads are largely unchanged for HFTs but increase for non-HFT traders. 
-                    Price efficiency improves as return autocorrelations and excess variance ratios move closer to random-walk benchmarks. 
-                    Evidence suggests HFT dealers’ inventory management is the main channel behind these results.</p>
-            </div>
-    
-            <div class="paper">
-                <p><strong> Costs and Benefits of Trading with Stock Dealers: The Case of Systematic
-                        Internalizers</strong></p>
-                <p>(with Lars Norden)</p>
-                <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/eufm.12430" target="_blank">European Financial
-                    Management</a>
-                <p class="abstract"><strong>Abstract:</strong> Systematic internalizers are single-dealer platforms run
-                    by investment firms that trade out of their inventories by internalizing the trades off exchanges.
-                    We analyze the determinants of dealers' market shares and trading costs. We find that dealer trades
-                    have lower price impacts than exchange trades, consistent with uninformed traders seeking out
-                    dealers. Due to their ability to avoid trading with informed investors, dealers often undercut the
-                    exchange bid–ask spread when the spread is wide and the tick size is not binding. Dealers can,
-                    therefore, offer lower trading costs and gain a higher market share relative to exchanges.</p>
-            </div>
-    
-            <div class="paper">
-                <p><strong> Anatomy of Systematic Internalizers and Price Efficiency </strong></p>
-                <p>(Sole-author)</p>
-                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3852664" target="_blank">SSRN</a>
-                <p class="abstract"><strong>Abstract:</strong> This study investigates the characteristics of
-                    systematic internalizers and their impact on price efficiency. The results show market making firms
-                    are more likely to operate as SIs. Using high-frequency measures of price efficiency, I find
-                    evidence that SIs lead to more informative prices on exchanges. The improved price efficiency is
-                    driven by those SIs with the highest level of market making activities on exchanges. Understanding
-                    the impact of SIs on price efficiency is important, since the increased market share in off-exchange
-                    trading through SIs has raised regulatory concerns about their roles in equity markets.</p>
-            </div>
-
-            <h2 class="work-in-progress-heading">Work in Progress:</h2>                
-            <div class="paper work-in-progress-paper">
-                <p><strong><a href="https://ssrn.com" target="_blank">Decision to Operate as a Systematic Internaliser
-                            and Dealers' Performance</a></strong></p>
-                <p>(Sole-author)</p>
-                <p class="abstract"><strong>Abstract:</strong> This paper examines whether trading firms' decision to operate as systematic internalisers (SIs) improves their trading performance.</p>
-            </div>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a href="index.html" class="brand">Lena Aramian</a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="research.html" class="active">Research</a>
+                <a href="opinion_and_policy.html">Opinion &amp; Policy</a>
+                <a href="teaching.html">Teaching</a>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main class="container">
+        <header class="page-head">
+            <h1>Research</h1>
+            <p class="page-sub">Publications and working papers in market microstructure, market design, and financial
+                market regulation.</p>
+        </header>
+
+        <article class="paper">
+            <h2 class="paper-title">How does venue design shape retail trading outcomes?</h2>
+            <p class="paper-meta">with Carole Comerton-Forde</p>
+            <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6745681"
+                target="_blank" rel="noopener">SSRN</a>
+            <p class="abstract"><span class="label">Abstract.</span> We examine how retail trading venue design affects
+                execution quality in a fragmented market without a consolidated tape. We compare a venue where market
+                makers compete on price relative to a single-venue reference price with one where market makers trade at
+                a multi-venue reference price without price improvement. Price competition yields lower trading costs
+                (3.3 bps vs. 4.8 bps). Conditioning on identical reference prices, the venue allowing price improvement
+                continues to deliver lower costs. Execution shortfalls relative to the European Best Bid and Offer,
+                concentrated on the no-improvement venue, total approximately EUR 1.5 million annually for retail
+                investors.</p>
+        </article>
+
+        <article class="paper">
+            <h2 class="paper-title">High-frequency traders' single-dealer platforms and market quality</h2>
+            <p class="paper-meta">with Lars Norden</p>
+            <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3738608"
+                target="_blank" rel="noopener">SSRN</a>
+            <p class="abstract"><span class="label">Abstract.</span> High-frequency traders (HFTs) mainly operate on
+                public exchanges. Since the European regulatory changes in 2018 (Markets in Financial Instruments
+                Directive II), some HFTs began operating Systematic Internalizers (SIs), i.e., single-dealer platforms
+                where clients trade against the dealer's inventory. Using Swedish equity market data, we show that higher
+                HFT dealer-platform activity reduces displayed exchange liquidity: quoted spreads widen and depth falls.
+                Effective spreads are largely unchanged for HFTs but increase for non-HFT traders. Price efficiency
+                improves as return autocorrelations and excess variance ratios move closer to random-walk benchmarks.
+                Evidence suggests HFT dealers' inventory management is the main channel behind these results.</p>
+        </article>
+
+        <article class="paper">
+            <h2 class="paper-title">Costs and Benefits of Trading with Stock Dealers: The Case of Systematic
+                Internalizers</h2>
+            <p class="paper-meta">with Lars Norden</p>
+            <a class="paper-link" href="https://onlinelibrary.wiley.com/doi/full/10.1111/eufm.12430"
+                target="_blank" rel="noopener">European Financial Management</a>
+            <p class="abstract"><span class="label">Abstract.</span> Systematic internalizers are single-dealer
+                platforms run by investment firms that trade out of their inventories by internalizing the trades off
+                exchanges. We analyze the determinants of dealers' market shares and trading costs. We find that dealer
+                trades have lower price impacts than exchange trades, consistent with uninformed traders seeking out
+                dealers. Due to their ability to avoid trading with informed investors, dealers often undercut the
+                exchange bid–ask spread when the spread is wide and the tick size is not binding. Dealers can, therefore,
+                offer lower trading costs and gain a higher market share relative to exchanges.</p>
+        </article>
+
+        <article class="paper">
+            <h2 class="paper-title">Anatomy of Systematic Internalizers and Price Efficiency</h2>
+            <p class="paper-meta">Sole-author</p>
+            <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3852664"
+                target="_blank" rel="noopener">SSRN</a>
+            <p class="abstract"><span class="label">Abstract.</span> This study investigates the characteristics of
+                systematic internalizers and their impact on price efficiency. The results show market making firms are
+                more likely to operate as SIs. Using high-frequency measures of price efficiency, I find evidence that
+                SIs lead to more informative prices on exchanges. The improved price efficiency is driven by those SIs
+                with the highest level of market making activities on exchanges. Understanding the impact of SIs on price
+                efficiency is important, since the increased market share in off-exchange trading through SIs has raised
+                regulatory concerns about their roles in equity markets.</p>
+        </article>
+
+        <h2 class="section-heading">Work in Progress</h2>
+
+        <article class="paper tentative">
+            <h2 class="paper-title"><a href="https://ssrn.com" target="_blank" rel="noopener">Decision to Operate as a
+                    Systematic Internaliser and Dealers' Performance</a></h2>
+            <p class="paper-meta">Sole-author</p>
+            <p class="abstract"><span class="label">Abstract.</span> This paper examines whether trading firms' decision
+                to operate as systematic internalisers (SIs) improves their trading performance.</p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>Lena Aramian &middot; Stockholm Business School, Stockholm University</p>
+            <p><a href="mailto:lena.aramian@sbs.su.se">lena.aramian@sbs.su.se</a></p>
+            <p class="muted">&copy; 2026 Lena Aramian</p>
+        </div>
+    </footer>
 
 </body>
 
-
 </html>
-
-
-
-
-
-
-
-
-
-

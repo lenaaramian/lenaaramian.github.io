@@ -4,53 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Research CV</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Lena Aramian — Researcher in Finance</title>
+    <meta name="description"
+        content="Lena Aramian is a researcher in finance at Stockholm Business School, Stockholm University, specialising in market microstructure, market design, and financial market regulation.">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a2a44'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='15' font-weight='700' fill='%23b08d57' text-anchor='middle'%3ELA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/source-sans-pro" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="opinion_and_policy.html">Opinion and Policy</a>
-        <a href="teaching.html">Teaching</a>
-    </div>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a href="index.html" class="brand">Lena Aramian</a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="research.html">Research</a>
+                <a href="opinion_and_policy.html">Opinion &amp; Policy</a>
+                <a href="teaching.html">Teaching</a>
+            </nav>
+        </div>
+    </header>
 
-    <div class="container">
-        <div class="left-column">
-            <img src="image/image.jpg" alt="Profile Picture" class="profile-pic">
-            <div class="contact-section">
-                <h2>Contact</h2>
-                <div class="contact-info">
-                    <p><strong>Lena Aramian</strong></p>
+    <main class="container">
+        <section class="hero card">
+            <div class="hero-photo">
+                <img src="image/image.jpg" alt="Portrait of Lena Aramian" class="profile-pic">
+            </div>
+            <div class="hero-intro">
+                <h1 class="name">Lena Aramian</h1>
+                <p class="title">Researcher in Finance</p>
+                <p class="affil">Stockholm Business School, Stockholm University</p>
+                <p class="interests"><strong>Research interests:</strong> Market microstructure &middot; Market design
+                    &middot; Financial market regulation</p>
+                <div class="profile-links">
+                    <a href="mailto:lena.aramian@sbs.su.se">Email</a>
+                    <!-- SSRN author link to be added -->
+                </div>
+            </div>
+        </section>
+
+        <div class="home-grid">
+            <section class="card about">
+                <h2 class="section-title">About me</h2>
+                <p>I am a researcher in finance at Stockholm Business School, Stockholm University, Sweden. Prior to this,
+                    I worked as a Postdoctoral Fellow in the Department of Finance at the University of Melbourne,
+                    Australia. I received my Ph.D. in Finance and MSc. in Mathematical Statistics from Stockholm
+                    University. My research in market microstructure focuses on market design and financial market
+                    regulation. I analyze the impact of financial market design and regulatory reforms on the competition
+                    for order flow between different trading systems, traders' order routing strategies, and the
+                    subsequent effects on the market and execution quality.</p>
+            </section>
+
+            <aside class="card contact-card">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-block">
+                    <p class="lead">Lena Aramian</p>
                     <p>Researcher in Finance</p>
                     <p><a href="mailto:lena.aramian@sbs.su.se">lena.aramian@sbs.su.se</a></p>
-                </div>
-                <div class="address">
-                    <p><strong>Visiting address:</strong></p>
+                    <hr class="divider">
+                    <h3>Visiting address</h3>
                     <p>Albano, House 2</p>
                     <p>Level 5, Albanovagen 18</p>
                     <p>Stockholm, Sweden</p>
                 </div>
-            </div>
+            </aside>
+        </div>
+    </main>
 
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>Lena Aramian &middot; Stockholm Business School, Stockholm University</p>
+            <p><a href="mailto:lena.aramian@sbs.su.se">lena.aramian@sbs.su.se</a></p>
+            <p class="muted">&copy; 2026 Lena Aramian</p>
         </div>
-        <div class="right-column">
-            <div class="header">
-                <h1>About me</h1>
-                <p>I am a researcher in finance at Stockholm Business School, Stockholm University, Sweden. Prior to
-                    this, I worked as a Postdoctoral Fellow in the Department of Finance at the University of Melbourne,
-                    Australia. I received my Ph.D. in Finance and MSc. in Mathematical Statistics from Stockholm
-                    University. My research in market microstructure focuses on market design and financial market
-                    regulation. I analyze the impact of financial market design and regulatory reforms on the
-                    competition for order flow between different trading systems, traders' order routing strategies, and
-                    the subsequent effects on the market and execution quality.</p>
-            </div>
-        </div>
-    </div>
+    </footer>
 
 </body>
 
