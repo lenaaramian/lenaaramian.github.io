@@ -342,6 +342,23 @@ a:hover {
     margin-bottom: 0.9rem;
 }
 
+.paper-status {
+    color: var(--gold-dark);
+    font-weight: 600;
+    font-size: 0.96rem;
+    margin-bottom: 0.9rem;
+}
+
+.paper-status a {
+    color: var(--gold-dark);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.paper-status a:hover {
+    color: var(--navy);
+}
+
 .paper-link {
     display: inline-block;
     font-size: 0.78rem;
